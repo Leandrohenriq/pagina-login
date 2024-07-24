@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+/*wrapper*/
+#wrapper{
+    background-color: rgba(0, 0, 0, 0.863);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Area do login toda*/
+#area-login{
+    background-color: white;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+}
+
+/*Login texto*/
+.texto-login{
+    font-size: 2em;
+    font-weight: bold;
+    margin: 70px 0 25px 0;
+}
+
+/*Area para o usuario digitar login e senha*/
+.digitar-login{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.area-texto{
+    height: 40px;
+    background-color: rgba(128, 128, 128, 0.205);
+    color: grey;
+    padding: 7px;
+    border: 1px solid rgba(128, 128, 128, 0.733);
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.area-texto:hover{
+    border: 1px solid rgba(0, 0, 0, 0.466);
+}
+
+
+/*Botao acessar*/
+.acessar{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bolder;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-bottom: 15px;
+}
+
+.acessar:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.botao{
+    margin-top: 15px;
+    width: 80%;
+}
+
+
+
+/*Entrar com redes sociais*/
+.entre-redes-sociais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 70px;
+}
+
+.entre-redes-sociais p{
+    font-size: 1.1em;
+    margin: 15px 0;
+}
+
+.entre-redes-sociais a{
+    width: 100%;
+}
+
+.entre-redes-sociais .botao-entrar{
+    width: 100%;
+    cursor: pointer;
+    margin: 7.5px 0;
+    height: 32px;
+    border: 0;
+    color: white;
+    font-size: 1.1em;
+    border-radius: 4px;
+}
+
+.twitter{
+    background-color: #00acee;
+}
+
+.facebook{
+    background-color: #3b5998;
+}
