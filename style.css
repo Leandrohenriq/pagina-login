@@ -117,3 +117,18 @@
 .facebook{
     background-color: #3b5998;
 }
+
+
+@media(max-width:550px){
+    #area-login{
+        width: 300px;
+    }
+
+    #area-login .entre-redes-sociais .botao-entrar{
+        font-size: 1em;
+    }
+
+    #area-login .entre-redes-sociais p{
+            font-size: 1em;
+    }
+}
